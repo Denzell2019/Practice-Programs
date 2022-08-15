@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int number;
+int index;
+
+int main() {
+    // Write C++ code here
+    cout << "Enter a number" << endl;
+    cin >> number;
+    
+ for(index = 1; index < number; index++)
+ 
+ if(number % index == 0)
+ 
+ cout << index;
+ 
+
+
+  
+  return 0;
